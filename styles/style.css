@@ -209,7 +209,7 @@ input[type='checkbox']:checked + .search-form__pseudo-checkbox {
   padding: 0 0 25px;
   font-size: 75px;
   font-weight: 700;
-  font-family: Oswald, sans-serif;
+  font-family: 'Oswald', sans-serif;
   color: #FFF;
   line-height: 70.5px;
   text-transform: uppercase;
@@ -291,15 +291,8 @@ input[type='checkbox']:checked + .search-form__pseudo-checkbox {
   overflow: hidden;
 }
 
-.content__video-card-thumbnail {
-  object-fit: cover;
-  object-position: center;
-  inline-size: 194px;
-  block-size: 103px;
-}
-
 .more-button {
-  font-family: Fira Sans Condensed;
+  font-family: 'Fira Sans Condensed', sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 21.6px;
@@ -309,6 +302,14 @@ input[type='checkbox']:checked + .search-form__pseudo-checkbox {
   height: 34px;
   background-color: transparent;
   flex-shrink: 0;
+}
+
+
+.content__video-card-thumbnail {
+  object-fit: cover;
+  object-position: center;
+  inline-size: 194px;
+  block-size: 103px;
 }
 
 /* Кастомный скроллбар */
